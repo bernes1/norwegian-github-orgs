@@ -108,3 +108,8 @@ Me trying to make a list of norwegian github orgs
 - https://github.com/Sonat-Consulting
 - https://github.com/nettbureau
 - https://github.com/evry
+- https://github.com/visma-prodsec
+- https://github.com/sikkerhet
+- https://github.com/defendable
+- https://github.com/karimelmel
+- https://github.com/innovationnorway
