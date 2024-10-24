@@ -25,6 +25,7 @@ Me trying to make a list of norwegian github orgs
 - https://github.com/politiet
 - https://github.com/NorskRegnesentral
 - https://github.com/scrimba
+- https://github.com/sopra-steria-norge
 - https://github.com/NordicSemiconductor
 - https://github.com/NordicPlayground
 - https://github.com/reMarkable
@@ -51,6 +52,7 @@ Me trying to make a list of norwegian github orgs
 - https://github.com/amedia
 - https://github.com/Multiconsult-Group
 - https://github.com/hkraftno
+- https://github.com/fortytwoservices
 - https://github.com/Intility
 - https://github.com/dfo-no
 - https://github.com/EgdeConsulting
