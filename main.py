@@ -65,30 +65,30 @@ def search_github_orgs(query, token, year):
             else:
                 page += 1  # Prepare for the next page 
                 print(page)   
-            write_json_file(github_orgs, f'github_orgs_{year}.json') 
+            write_json_file(github_orgs, f'data/github_orgs_{year}.json') 
         else:
             print(f"Failed to search GitHub: {response.status_code}, Response: {response.text}")
             break
 
 # List of JSON files to merge
 json_files = [
-    'github_orgs_2010.json',
-    'github_orgs_2011.json',
-    'github_orgs_2012.json',
-    'github_orgs_2010.json',
-    'github_orgs_2011.json',
-    'github_orgs_2012.json',
-    'github_orgs_2013.json',
-    'github_orgs_2014.json',
-    'github_orgs_2015.json',
-    'github_orgs_2016.json',
-    'github_orgs_2017.json',
-    'github_orgs_2018.json',
-    'github_orgs_2019.json',
-    'github_orgs_2020.json',
-    'github_orgs_2021.json',
-    'github_orgs_2022.json',
-    'github_orgs_2023.json',
+    'data/github_orgs_2010.json',
+    'data/github_orgs_2011.json',
+    'data/github_orgs_2012.json',
+    'data/github_orgs_2010.json',
+    'data/github_orgs_2011.json',
+    'data/github_orgs_2012.json',
+    'data/github_orgs_2013.json',
+    'data/github_orgs_2014.json',
+    'data/github_orgs_2015.json',
+    'data/github_orgs_2016.json',
+    'data/github_orgs_2017.json',
+    'data/github_orgs_2018.json',
+    'data/github_orgs_2019.json',
+    'data/github_orgs_2020.json',
+    'data/github_orgs_2021.json',
+    'data/github_orgs_2022.json',
+    'data/github_orgs_2023.json',
 ]
 
 # Your GitHub personal access token
