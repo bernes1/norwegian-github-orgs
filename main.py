@@ -65,7 +65,7 @@ def search_github_orgs(query, token, year):
             else:
                 page += 1  # Prepare for the next page 
                 print(page)   
-            write_json_file(github_orgs, f'github_orgs_{year}.json') 
+            write_json_file(github_orgs, f'data/github_orgs_{year}.json') 
         else:
             print(f"Failed to search GitHub: {response.status_code}, Response: {response.text}")
             break
@@ -100,7 +100,7 @@ query = 'location:"Norway"'
 for year in range(2010, 2024):
     print(f"Fetching data for year {year}...")
     print(f"Searching for GitHub organizations with query: {query}")
-    #search_github_orgs(query, token, year)
+    search_github_orgs(query, token, year)
     
 print("Data fetching completed!")
 
